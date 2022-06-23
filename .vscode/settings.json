@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "Java collections/map",
+        "Java collections/List",
+        "Java collections/set"
+    ]
+}
