@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "Java collections/set",
         "Java collections/map",
         "Java collections/List",
-        "Java collections/set"
+        "Java Generics"
     ]
 }
