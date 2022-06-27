@@ -25,7 +25,7 @@ class Main
 {
     public static void main (String[] args)
     {
-        Test <String, Integer> obj = new Test<String, Integer>("JavaGen", 33);
+        Test <String, Integer> obj = new Test<String, Integer>("JavaGeneric4", 33);
         obj.print();
     }
 }
