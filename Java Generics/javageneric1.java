@@ -1,4 +1,5 @@
-//java Generics example 1
+/*java Generics example 1 which accepts string and gives 
+compile time type error for adding of other types */
     import java.util.*;  
 class javageneric1{  
 public static void main(String args[]){  
