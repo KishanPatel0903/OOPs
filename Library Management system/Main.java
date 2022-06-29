@@ -11,7 +11,7 @@ public class Main {
         int a;
         while(choice !=3){
 
-            System.out.println(" Enter 1- for Module 1 (Student Details) \n Enter 2- for Module 2 (Book categories and authors) \n Enter 3- for Exit ");
+            System.out.println(" Enter 1- for Module 1 (Student Details) \n Enter 2- for Module 2 (Book categories and authors) \n Enter 3- for Exit");
             choice =obj.nextInt();
 
             if (choice == 1) {
@@ -33,7 +33,7 @@ public class Main {
 
             else if(choice ==2){
                 Module2 obj2=new Module2();
-                System.out.println("Which Genre of books or authors are you looking for?\n");
+                System.out.println("\nWhich Genre of books or Authors are you looking for?\n");
                 System.out.println("1. Self-help");
                 System.out.println("2. Romance");
                 System.out.println("3. Business");
@@ -62,9 +62,8 @@ public class Main {
                     obj2.authors();
                     break;
                     default:
-                    System.out.println(" Error: Enter valid choice\n");
-                    continue;
-                }
+                    System.out.println(" Error (Invalid choice)\n");
+                 }
                 
             }
             }
