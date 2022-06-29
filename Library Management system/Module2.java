@@ -48,14 +48,18 @@ public class Module2 {
 
     public void authors(){
         System.out.println("");
-        String auth[]={"James Clear","Paulo Coelho","Daniel Kahneman","Don Miguel Ruiz","Durjoy Datta","Preeti Shenoy",
-        "Sudeep Nagarkar","Robert Cialdini","Nassim Nicholas Taleb","Grag Crabtree","Laurance Shames And Peter Barton"};
+        String auth[]={"James Clear\n-Atomic Habits","Paulo Coelho\n-The Alchemist","Daniel Kahneman\n-Thinking Fast And Slow",
+        "Don Miguel Ruiz\n-The Four Agreements","Durjoy Datta\n-Wish I Could Tell You\n-The Boy Who Loved",
+        "Preeti Shenoy\n-The One You Cannot Have","Sudeep Nagarkar\n-Can't Quarantine Our Love\n-Sorry You're Not My Type",
+        "Robert Cialdini\n-Influence:The Pysochology Of Persuasion","Nassim Nicholas Taleb\n-Fooled By Randomness",
+        "Grag Crabtree\n-Simple Numbers, Straight Talks, Big Profits!","Laurance Shames And Peter Barton\n-Not Fade Away"};
         
         System.out.println("The Authors are as follows:");
 
         for (int k=0;k< auth.length;k++){
+        
+            System.out.println(k+1 +   auth[k]);
 
-            System.out.println(auth[k]);
 
 
         }
