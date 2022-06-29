@@ -17,7 +17,7 @@ public class Module2 {
 
     public void romance(){
         System.out.println("");
-        String rom[]={"Wish I Could Tell You","The One You Cannot Have","Can't Quarantine Our Love","","The Boy Who Loved",
+        String rom[]={"Wish I Could Tell You","The One You Cannot Have","Can't Quarantine Our Love","The Boy Who Loved",
         "Sorry You're Not My Type"};
 
         System.out.println("The books available in Romance genre are as follows:");

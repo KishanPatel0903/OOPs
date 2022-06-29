@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main2 {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -15,13 +15,13 @@ public class Main2 {
 
             if (choice == 1) {
             Module1 obj1=new Module1();
-                System.out.println("Enter student's name");
+                System.out.println("Enter student's name: ");
             obj1.name=obj.nextLine();obj1.name=obj.nextLine();
-                System.out.println("Enter the father's name");
+                System.out.println("Enter the father's name: ");
                 obj1.fname=obj.nextLine();
-                System.out.println("Enter university id");
+                System.out.println("Enter university id: ");
                 obj1.uni_id=obj.nextLine();
-                System.out.println("Enter the User id");
+                System.out.println("Enter the User id: ");
                 obj1.uid=obj.nextLine();
                 System.out.println("In which semester do you study:");
                 obj1.sem=obj.nextInt();
@@ -36,7 +36,7 @@ public class Main2 {
                 obj2.self_help();
                 obj2.romance();
                 obj2.business();
-                obj2.auth();
+                obj2.authors();
 
             }
             }

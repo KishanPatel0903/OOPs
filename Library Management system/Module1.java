@@ -18,8 +18,8 @@ public class Module1 {
         System.out.println("Student's name: "+name);
         System.out.println("Student's father name: "+fname);
         System.out.println("University id: "+uni_id);
-        System.out.println("user id"+ uid);
-        System.out.println("Semester"+sem);
+        System.out.println("user id: "+ uid);
+        System.out.println("Semester: "+sem);
     }
 
 }
