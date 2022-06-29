@@ -33,7 +33,7 @@ public class Main {
 
             else if(choice ==2){
                 Module2 obj2=new Module2();
-                System.out.println("\nWhich Genre of books or Authors are you looking for?\n");
+                System.out.println("\nWhich Genre of Books or Authors are you looking for?\n");
                 System.out.println("1. Self-help");
                 System.out.println("2. Romance");
                 System.out.println("3. Business");
