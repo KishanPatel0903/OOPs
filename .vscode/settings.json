@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
         "Library Management system",
+        "LMS2",
         "Java collections/set",
         "Java collections/map",
         "Java collections/List",
         "Java Generics",
-        "LMS2"
+        "REST API Application"
     ]
 }
